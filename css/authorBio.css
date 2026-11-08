@@ -14,18 +14,18 @@
     padding: 0;
     padding-left: 10vw;
     margin: 0;
-    font-size: 1.8vw !important;
+    font-size: 1.8vw ;
     width: 40vw;
     height: auto;
 }
 
-.body h2{
-    padding:0;
+
+.body h2 {
+    padding: 0;
     margin: 0;
     color: #9b74be;
     padding-left: 10vw;
     font-size: 2vw;
-
     margin-top: 2vh;
 }
 .body h3 {
@@ -63,7 +63,7 @@
     padding-right: 10vw;
     margin: 0;
     margin-bottom: 10vh;
-    font-size: 1.8vw !important;
+    font-size: 1.8vw;
 }
 
 
@@ -120,7 +120,18 @@
     width: 23vw;
 }
 
+@media only screen and (max-width: 480px) {
+    #bodyParagraphTwo {
+        font-size: clamp(14px, 2.5vw, 18px);
+    }
 
+    #authorPhoto {
+        width: 100%;
+        max-width: 250px; 
+        height: auto;
+    }
+    
+}
 
 
 
