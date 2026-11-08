@@ -15,7 +15,7 @@
     padding: 0;
     padding-left: 10vw;
     margin: 0;
-    font-size: 2rem !important;
+    font-size: clamp(0.5rem, 1.5vw, 2rem) !important;
     width: 40vw;
     height: auto;
 }
@@ -64,7 +64,7 @@
     
     margin: 0;
     
-    font-size: 2rem !important;
+    font-size: clamp(0.5rem, 1.5vw, 2rem) !important;
 }
 
 .bodyTwo {
