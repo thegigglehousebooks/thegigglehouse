@@ -122,14 +122,10 @@
 
 @media only screen and (max-width: 480px) {
     #bodyParagraphTwo {
-        font-size: clamp(14px, 2.5vw, 18px);
+        font-size: 0.55rem;
     }
 
-    #authorPhoto {
-        width: 100%;
-        max-width: 250px; 
-        height: auto;
-    }
+
     
 }
 
