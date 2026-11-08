@@ -93,27 +93,22 @@ p {
 @media (max-width: 768px) {
     .taskBar {
         width: 100%;
-        padding: 1rem 0.5rem;
-        overflow-x: auto;
-        scrollbar-width: none;
+        padding-left: 2vw;
+        padding-right: 2vw;
     }
 
     .taskList {
-        
-        padding-right: 1rem; 
+        justify-content: flex-start !important;
+        padding-right: 4vw !important;
     }
 
     .item {
-        padding: 0 0.5rem;
-    }
-
-    .item a {
-        font-size: 0.5rem; 
+        padding-left: 1vw !important;
+        padding-right: 1vw !important;
     }
 
     .item + .item {
-        border-left: 0.1rem solid #dec1f7;
-
+        border-left: 0.25vw solid #dec1f7 !important;
+        padding-left: 1vw !important;
     }
-
 }
