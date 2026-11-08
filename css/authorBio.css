@@ -1,4 +1,3 @@
-
 .bodyHeading {
     color: #302d29;
     font-size: 5vw;
@@ -15,7 +14,7 @@
     padding: 0;
     padding-left: 10vw;
     margin: 0;
-    font-size: clamp(0.5rem, 1.5vw, 2rem) !important;
+    font-size: 1.8vw !important;
     width: 40vw;
     height: auto;
 }
@@ -61,18 +60,13 @@
     text-align: left;
     padding: 0;
     padding-left: 10vw;
-    
+    padding-right: 10vw;
     margin: 0;
-    
-    font-size: clamp(0.5rem, 1.5vw, 2rem) !important;
+    margin-bottom: 10vh;
+    font-size: 1.8vw !important;
 }
 
-.bodyTwo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10vh;
-    width: 85vw;
-}
+
 
 
 
@@ -125,7 +119,6 @@
 
     width: 23vw;
 }
-
 
 
 
