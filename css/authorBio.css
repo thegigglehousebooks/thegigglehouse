@@ -1,4 +1,5 @@
 
+
 .bodyHeading {
     color: #302d29;
     font-size: 5vw;
@@ -15,7 +16,7 @@
     padding:0;
     padding-left: 10vw;
     margin: 0;
-    font-size: 1.6vw !important;
+    font-size: 1.6vw;
     width:40vw;
     height: auto;
 }
@@ -26,6 +27,8 @@
     color: #9b74be;
     padding-left: 10vw;
     font-size: 2vw;
+
+    margin-top: 2vh;
 }
 .body h3 {
     padding: 0;
@@ -61,10 +64,13 @@
     padding-left: 10vw;
     padding-right: 15vw;
     margin: 0;
-    font-size: 1.6vw !important;
-    height: auto;
+    font-size: 1.6vw;
 }
 
+.bodyTwo {
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -86,6 +92,7 @@
 #potsRibbon {
     width: 25vw;
     min-width: 25vw;
+    
 }
 
 .bodySep {
@@ -108,6 +115,8 @@
     width: 20vw;
     height: auto;
     
+
+    
 }
 
 #pots {
@@ -115,6 +124,14 @@
     width: 23vw;
 }
 
+@media {
+    .bodyParagraph {
+        font-size: clamp(1rem, 1.2rem + 0.5vw, 1.5rem) !important;
+    }
+    #bodyParagraphTwo {
+        font-size: clamp(1rem, 1.2rem + 0.5vw, 1.5rem) !important;
+    }
+}
 
 
 
