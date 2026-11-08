@@ -1,6 +1,3 @@
-html {
-    font-size: 16px;
-}
 
 .bodyHeading {
     color: #302d29;
@@ -18,7 +15,7 @@ html {
     padding: 0;
     padding-left: 10vw;
     margin: 0;
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
     width: 40vw;
     height: auto;
 }
@@ -64,14 +61,17 @@ html {
     text-align: left;
     padding: 0;
     padding-left: 10vw;
-    padding-right: 13vw;
+    
     margin: 0;
-    font-size: 1.2rem !important;
+    
+    font-size: 2rem !important;
 }
 
 .bodyTwo {
     display: flex;
     justify-content: center;
+    margin-bottom: 10vh;
+    width: 85vw;
 }
 
 
@@ -92,8 +92,8 @@ html {
 }
 
 #potsRibbon {
-    width: 25vw;
-    min-width: 25vw;
+    width: 23vw;
+    min-width: 23vw;
     
 }
 
