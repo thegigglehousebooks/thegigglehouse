@@ -23,6 +23,7 @@
 
 #bodyText {
     margin: 0 auto;
+    margin-top: 2vh;
     font-size: clamp(0.5rem, 2vw, 4rem);
     text-align: center;
 }
@@ -43,6 +44,7 @@
     border-bottom: none;
     border-radius: 1.5vw;
     text-decoration: none;
+    margin-top: 3vh;
 }
 
 #mischiefMakers {
@@ -86,6 +88,7 @@
 .meetText p {
     font-size: clamp(0.5rem, 2vw, 4rem);
     margin: 0 auto;
+    margin-top: 1vh;
 }
 
 #bodyThree {
