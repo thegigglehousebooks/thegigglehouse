@@ -96,27 +96,4 @@ p {
     color: #737e59;
 }
 
-@media (max-width: 768px) {
-    .taskBar {
-        width: 100%;
-        padding-left: 2vw;
-        padding-right: 2vw;
-    }
 
-    .taskList {
-        justify-content: flex-start !important;
-        padding-right: 40px !important;
-        overflow-x:visible !important
-    }
-
-    .item {
-        padding-left: 1vw !important;
-        padding-right: 1vw !important;
-        min-width: max-content !important;
-    }
-
-    .item + .item {
-        border-left: 0.25vw solid #dec1f7 !important;
-        padding-left: 1vw !important;
-    }
-}
