@@ -1,0 +1,102 @@
+/*REM = px / 16*/
+
+body {
+    background-color: #fcf8ed;
+    margin: 0;
+    font-family: Gabriola;
+}
+
+h1 {
+    color: #050506
+}
+
+p {
+    color: #2a335d;
+}
+
+#GiggleLogo { /*Master styling for the primary logo of the Giggle House*/
+    width: 40vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#logoText {
+    margin: 0 auto;
+    font-size: clamp(1rem, 3vw, 4rem);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.taskBar { /* Master styling for the taskbar*/
+    background-color: #dcd3f0;
+    border-radius: 20px;
+    width: 90vw;
+    height: auto;
+    min-height: 5vh;
+    margin: 0 auto; /* Centers the taskbar */
+    padding: 0.625em 1.25rem;
+    display: flex;
+    gap: 0;
+    align-items: center;
+    border: 0.25vw solid #dec1f7;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+
+.taskBar b a {
+    color: #2a335d;
+}
+
+.taskList { /*Master styling for the taskbar contents*/
+    display: flex;
+    align-items: center;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    justify-content: space-evenly;
+ 
+}
+
+.item { /*Each ul item*/
+   flex: 0 0 auto;
+   min-width: 0;
+   padding: 0 0.5rem;
+   white-space: nowrap;
+   text-align: center;
+ 
+}
+
+.item a { /*each ul link*/
+    text-decoration: none;
+    font-size: clamp(0.65rem, 1.8vw, 4.0rem);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+}
+
+.item a:hover {
+    color: #9b74be;
+}
+
+.item + .item { /*creates the dividers*/
+    border-left: 0.2vw solid #dec1f7;
+    padding-left: 3vw;
+    padding-right: 1vw;
+}
+
+#homeLink {
+    padding-left: 0 !important;
+}
+
+#everyGiggle {
+    text-align: center;
+    color: #737e59;
+}
+
+

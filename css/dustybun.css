@@ -1,0 +1,90 @@
+h1 {
+    color: #302d29;
+    font-size: 10vw;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    line-height: 1;
+    
+}
+#dustySub {
+    font-size: 4vw;
+    text-align: center;
+    padding:0;
+    margin: 0 auto;
+    line-height: 1;
+    padding-bottom: 2vh;
+}
+
+.body h2{
+    padding:0;
+    margin: 0;
+    color: #9b74be;
+    
+    font-size: 2vw;
+}
+.body h3 {
+    padding: 0;
+    margin: 0;
+    color: #737e59;
+    font-size: 2vw;
+}
+
+.bodySep {
+    margin: 0 auto;
+    width: 90vw;
+    border-top: 0.25vw solid #dec1f7;
+}
+
+#everyGiggle {
+    text-align: center;
+    color: #737e59;
+}
+
+#dustyBio {
+    color: #302d29;
+    text-align: left;
+    padding: 0 0 0 0;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    margin: 0 0 0 0;
+    font-size: 2vw;
+}
+
+#dustyPortrait {
+    width: 25vw;
+    height: auto;
+    padding: 0 0 0 0;
+    margin-left: 6vw;
+    margin-top: 10vh;
+    border: 1vw solid white;
+    box-shadow: 0.521vw 0.521vw #dcd3f0;
+}
+
+
+
+#handSome {
+    padding-left: 12vw;
+}
+
+.imagesContainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.image {
+    margin: 5vh 2vw 0 2vw;
+    border: 1vw solid white;
+    border-left-width: 3vw;
+    border-right-width: 3vw;
+    box-shadow: 0.521vw 0.521vw #dcd3f0;
+    width: 35vw;
+    height: auto;
+}
+
+#header {
+    margin-top: 5vh;
+}
+
+

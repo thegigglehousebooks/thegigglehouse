@@ -1,0 +1,188 @@
+
+
+#giggleHouse {
+    width: 50vw;
+    height: auto;
+    padding: 2vh 2vh 0 0;
+}
+
+#giggleStart {
+    width: 40vw;
+    height: auto;
+    padding: 0 2vw 0 5vw;
+    margin: 0 auto;
+}
+
+
+.text-container {
+    text-align: center;
+    text-anchor: middle;
+    width: 24vw;
+    height: auto;
+}
+
+#bodyText {
+    margin: 0 auto;
+    font-size: clamp(0.5rem, 2vw, 4rem);
+    text-align: center;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageLinkButton {
+    background-color: #9b74be;
+    color: #fcf8ed;
+    text-align: center;
+    font-size: 2vw;
+    border: 0.5vw solid #9b74be;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 1.5vw;
+    text-decoration: none;
+}
+
+#mischiefMakers {
+    width: 60vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gusImage {
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10vw;
+}
+
+#dustyImage {
+    width: 16.5vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10vw;
+}
+
+.meetText {
+    margin: 0 auto;
+    font-size: clamp(0.5rem, 1vw, 4rem);
+    text-align: center;
+    padding-left: 1vw;
+}
+
+.meetText h1 {
+    font-size: clamp(0.5rem, 4vw, 4rem);
+    margin: 0 auto;
+}
+
+.meetText p {
+    font-size: clamp(0.5rem, 2vw, 4rem);
+    margin: 0 auto;
+}
+
+#bodyThree {
+    padding-bottom: 2vh;
+}
+
+.bodySep {
+    margin: 0 auto;
+    width: 90vw;
+    border-top: 0.25vw solid #dec1f7;
+}
+
+#pageHeart {
+    width: 20vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10vw;
+    padding-top: 2vh;
+    
+}
+
+#bodyFour {
+    padding-bottom: 2vh;
+}
+
+#bodyFive {
+    padding-bottom: 2vh;
+}
+
+#authorButton {
+    background-color: #9b74be;
+    color: #fcf8ed;
+    text-align: center;
+    font-size: 3vw;
+    border: 5vw solid #9b74be;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 1.5vw;
+    text-decoration: none;
+    letter-spacing: 0.25vw;
+    word-spacing: 2vw;
+}
+
+#donateButton {
+    background-color: #9b74be;
+    color: #fcf8ed;
+    text-align: center;
+    font-size: 2vw;
+    border: 10vw solid #9b74be;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 1.5vw;
+    text-decoration: none;
+    letter-spacing: 0.25vw;
+    word-spacing: 2vw;
+}
+
+#supportJar {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#instagramLogo {
+    width: 5vw;
+    padding-right: 2vw;
+}
+
+#facebookLogo {
+    width: 5vw;
+    padding-left: 2vw;
+}
+
+#socialList {
+    display: flex;
+    justify-content: center;
+    padding: 0 2vw 0 2vw;
+    list-style: none;
+}
+
+#giggleShelf {
+    display: block;
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#bodyTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.bookLinks {
+    padding: 1vh 2vw 1vh 2vw;
+}

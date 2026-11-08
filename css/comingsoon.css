@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+#everyGiggle {
+    text-align: center;
+    color: #737e59;
+}
+
+.bodySep {
+    margin: 0 auto;
+    width: 90vw;
+    border-top: 0.25vw solid #dec1f7;
+}
