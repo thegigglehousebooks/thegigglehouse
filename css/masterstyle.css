@@ -90,6 +90,12 @@ p {
     padding-left: 3vw;
     padding-right: 1vw;
 }
+
+#everyGiggle {
+    text-align: center;
+    color: #737e59;
+}
+
 @media (max-width: 768px) {
     .taskBar {
         width: 100%;
