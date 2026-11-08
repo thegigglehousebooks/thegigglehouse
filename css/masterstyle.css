@@ -91,4 +91,31 @@ p {
     padding-right: 1vw;
 }
 
+@media (max-width: 768px) {
+    .taskBar {
+        width: 100%;
+        padding: 1rem 0.5rem;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
 
+    .taskList {
+        justify-content: flex-start; 
+        padding-right: 1rem; 
+    }
+
+    .item {
+        padding: 0 0.5rem;
+    }
+
+    .item a {
+        font-size: 1rem; 
+    }
+
+    .item + .item {
+        border-left: 0.1rem solid #dec1f7;
+        padding-left: 0.5rem;
+        margin-left: 0.5rem; 
+    }
+
+}
