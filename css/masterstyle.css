@@ -78,7 +78,7 @@ p {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    display: block;
+    
 }
 
 .item a:hover {
@@ -90,7 +90,6 @@ p {
     padding-left: 3vw;
     padding-right: 1vw;
 }
-
 @media (max-width: 768px) {
     .taskBar {
         width: 100%;
@@ -100,7 +99,7 @@ p {
     }
 
     .taskList {
-        justify-content: flex-start; 
+        
         padding-right: 1rem; 
     }
 
@@ -109,13 +108,12 @@ p {
     }
 
     .item a {
-        font-size: 1rem; 
+        font-size: 0.5rem; 
     }
 
     .item + .item {
         border-left: 0.1rem solid #dec1f7;
-        padding-left: 0.5rem;
-        margin-left: 0.5rem; 
+
     }
 
 }
