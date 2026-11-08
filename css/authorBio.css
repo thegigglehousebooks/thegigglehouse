@@ -39,20 +39,20 @@
     width: 20vw;
     height: auto;
     padding: 0;
-    margin-left: auto;
+    margin-left: 12vw;
     margin-right: auto;
     border: 1vw solid white;
     box-shadow: 0.521vw 0.521vw #dcd3f0;
 }
 
-.authorSide {
-    padding-left: 13vw;
+
+#authorPicSub {
+    font-size: 1.4vw !important;
+    text-align: center;
+    margin-left: 2vw;
+    margin-top: 1vh;
 }
 
-    .authorSide h3 {
-     
-        padding-left: 3vw;
-    }
 
 #bodyParagraphTwo {
     width: 77vw;
