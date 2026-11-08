@@ -99,12 +99,14 @@ p {
 
     .taskList {
         justify-content: flex-start !important;
-        padding-right: 4vw !important;
+        padding-right: 40px !important;
+        overflow-x:visible !important
     }
 
     .item {
         padding-left: 1vw !important;
         padding-right: 1vw !important;
+        min-width: max-content !important;
     }
 
     .item + .item {
